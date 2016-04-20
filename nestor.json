@@ -1,0 +1,19 @@
+{
+  "name": "Campaign Monitor",
+  "permalink": "campaignmonitor",
+  "description": "Get Campaign Monitor stats and subscribe/unsubscribe members from Nestor",
+  "environment_keys": {
+    "NESTOR_CAMPAIGNMONITOR_API_KEY": {
+      "required": true,
+      "mode": "user"
+    },
+    "NESTOR_CAMPAIGNMONITOR_CLIENT_ID": {
+      "required": true,
+      "mode": "user"
+    },
+    "NESTOR_CAMPAIGNMONITOR_LIST_ID" : {
+      "required": true,
+      "mode": "user"
+    }
+  }
+}
